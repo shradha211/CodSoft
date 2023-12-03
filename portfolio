@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+    <style>
+      /* styles.css */
+
+      body {
+        font-family: Arial, sans-serif;
+        line-height: 1.6;
+        margin: 0;
+        padding: 0;
+        color: #333;
+        font-family: sans-serif;
+        background-color: rgb(255, 255, 239);
+      }
+
+      header {
+        background-color: rgb(8, 116, 8);
+        padding: 20px;
+      }
+
+      nav ul {
+        list-style-type: none;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 10px;
+      }
+
+      nav ul li a {
+        text-decoration: none;
+        color: black;
+        font-size: large;
+      }
+
+      main {
+        padding: 20px;
+      }
+
+      h2 {
+        color: rgb(8, 116, 8);
+      }
+
+      .photo {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+
+      footer {
+        background-color: rgb(8, 116, 8);
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="about">
+        <h2>About Me</h2>
+        <img src="meee.jpg" alt="Your Name" class="photo" />
+        <p>
+          >Hello, my name is Shradha. I am a passionate student of computer
+          science. With a solid foundation in programming, algorithms, and data
+          structures, I am always eager to learn and apply my knowledge in
+          real-world projects.
+        </p>
+      </section>
+      <section id="education">
+        <h2>Education</h2>
+        <ul>
+          <li>
+            Bachelor of Science in Computer Science, CMR INSTITUTE OF
+            TECHNOLOGY, 2021-2025
+          </li>
+          <li>HSC in Science, NARAYANA JUNIOR COLLEGE, 2019-2021</li>
+          <li>Matriculate, BISHOP WESTCOTT GIRLS SCHOOL, 2008-2019</li>
+        </ul>
+      </section>
+      <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+          <li>Java- Intermediate</li>
+          <li>C-Intermediate</li>
+          <li>HTML CSS- Intermediate</li>
+          <li>Pyhton- Beginner</li>
+        </ul>
+      </section>
+      <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+          <li><a href="youtube.png">Project 1</a> - Youtube Clone</li>
+          <li><a href="snake.png">Project 2</a> - Snake Game</li>
+        </ul>
+      </section>
+      <section id="resume">
+        <h2>Resume</h2>
+        <p>
+          For further info, you can download my resume
+          <a href="IMG-20220830-WA0023.pdf">here</a>
+        </p>
+      </section>
+      <section id="contact">
+        <h2>Contact</h2>
+        <p>If you have any questions, feel free to reach out:</p>
+        <ul>
+          <li>Email: shradhaagarwal196.com</li>
+          <li>Phone: 7093948327</li>
+        </ul>
+      </section>
+    </main>
+    <footer>
+      <p>&copy; 2023 Shradha Agarwal. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
